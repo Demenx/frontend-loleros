@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     console.log('effect')
     axios
-      .get('https://backend-loleros.vercel.app//api/racha')
+      .get('https://backend-loleros.vercel.app/api/racha')
       .then(response => {
         console.log('promise fulfilled')
         setRachas(response.data)
@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     console.log('effect')
     axios
-      .get('https://backend-loleros.vercel.app//api/record')
+      .get('https://backend-loleros.vercel.app/api/record')
       .then(response => {
         console.log('promise fulfilled')
         setRecord(response.data)
